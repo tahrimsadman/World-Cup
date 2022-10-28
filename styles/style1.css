@@ -118,7 +118,6 @@ h1{
     margin: 0px;
 }
 .single-grid{
-    
     width: 250px;
     height: 300px;
     margin: 0px;
@@ -150,4 +149,39 @@ h1{
     width: 20px;
     height: 20px;
     margin-top: 2px;
+}
+/* ---------------------------------------------------
+
+                     footer-section
+
+-----------------------------------------------------*/
+footer{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    margin-top: 1750px;
+    margin-left: 0px;
+    background-color: #161616;
+}
+.footer-text{
+    color: white;
+}
+.goal{
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+hr{
+    width: 75%;
+}
+.extensions{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
