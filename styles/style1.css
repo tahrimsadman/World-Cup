@@ -45,6 +45,12 @@ h1{
     background-color: #DD0000;
     padding: 18px 15px 20px 16px; 
 }
+.watch-live:hover{
+    background-color: chartreuse;
+    color: black;
+    transform: scale(1.09);
+}
+
 .header-image,.marcello{
     position: absolute;
     width: 450px;
