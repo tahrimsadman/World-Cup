@@ -45,7 +45,7 @@ h1{
     background-color: #DD0000;
     padding: 18px 15px 20px 16px; 
 }
-.header-image,img{
+.header-image,.marcello{
     position: absolute;
     width: 450px;
     height: 500px;
@@ -60,6 +60,7 @@ h1{
 .body-section{
     position: absolute;
     margin-top: 750px;
+    display: flex;
 }
 .nav-box{
     display: flex;
@@ -97,4 +98,56 @@ h1{
     background-color: red;
     border-radius: 10px;
     color: white;
+}
+
+/*---------------------------------------------------------------
+
+                             Grid_Section
+                             
+----------------------------------------------------------------*/
+.grid-box{
+    margin-left: 50px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-img{
+    position: absolute;
+    width: 250px;
+    height: 120px;
+    margin: 0px;
+}
+.single-grid{
+    
+    width: 250px;
+    height: 300px;
+    margin: 0px;
+}
+.text-box{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    margin-top: 120px;
+    padding-left: 10px;
+}
+.transfer-box{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.icon-section{
+    display: flex;
+}
+.icon-box{
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+    height: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
 }
